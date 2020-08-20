@@ -1,2 +1,2 @@
 # Supervised-Machine_Learning
-Implementing KNN Algorithm with Scikit-Learn
+Theory: Implementing KNN Algorithm with Scikit-Learn
