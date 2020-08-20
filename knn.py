@@ -6,13 +6,13 @@ import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
 
-url = ("C:/Supervised Learning/Datasets/iris.data")
+file = ("C:/Supervised Learning/Datasets/iris.data")
 
 # Assigning column names to the dataset
 names = ['sepal-length', 'sepal-width', 'petal-length', 'petal-width', 'Class']
 
 # Reading dataset to pandas dataframe
-dataset = pd.read_csv(url, names=names)
+dataset = pd.read_csv(file, names=names)
 
 #Displaying original data
 show_data=dataset.head(n=50)
